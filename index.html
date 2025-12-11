@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>隨身日語 Pocket Nihongo Pro</title>
     
-    <!-- 使用穩定的 Emoji 作為 Favicon，避免 Google Drive 連結失效 -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⛩️</text></svg>">
+    <!-- 設定手機主畫面 ICON (使用您的 Google Drive 圖片) -->
+    <link rel="icon" href="https://drive.google.com/uc?export=view&id=1ME9RQqug6RCy7udQcN4o3FOhpUdmXkZw">
+    <link rel="apple-touch-icon" href="https://drive.google.com/uc?export=view&id=1ME9RQqug6RCy7udQcN4o3FOhpUdmXkZw">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
@@ -110,7 +111,7 @@
     <!-- Top Header -->
     <header class="bg-white shadow-sm z-10 px-4 py-3 flex justify-between items-center sticky top-0">
         <div class="flex items-center gap-2">
-            <!-- Replaced broken image with stable FontAwesome Icon -->
+            <!-- 恢復為預設的鳥居 ICON，不顯示您的照片 -->
             <i class="fa-solid fa-torii-gate text-red-500 text-2xl"></i>
             <h1 class="text-lg font-bold tracking-wide">Pocket Nihongo <span class="text-xs bg-red-100 text-red-600 px-1 rounded ml-1">Pro</span></h1>
         </div>
@@ -426,8 +427,6 @@
             "n5_verbs": { level: "N5", label: "日常動詞", items: [{ jp: "食べます", kana: "tabemasu", mean: "吃" }, { jp: "飲みます", kana: "nomimasu", mean: "喝" }, { jp: "行きます", kana: "ikimasu", mean: "去" }, { jp: "来ます", kana: "kimasu", mean: "來" }, { jp: "帰ります", kana: "kaerimasu", mean: "回家" }, { jp: "見ます", kana: "mimasu", mean: "看" }, { jp: "聞きます", kana: "kikimasu", mean: "聽" }, { jp: "読みます", kana: "yomimasu", mean: "讀" }, { jp: "書きます", kana: "kakimasu", mean: "寫" }, { jp: "話します", kana: "hanashimasu", mean: "說" }, { jp: "買います", kana: "kaimasu", mean: "買" }, { jp: "寝ます", kana: "nemasu", mean: "睡覺" }, { jp: "起きます", kana: "okimasu", mean: "起床" }, { jp: "します", kana: "shimasu", mean: "做" }] },
             "n5_adjectives": { level: "N5", label: "形容詞", items: [{ jp: "大きい", kana: "ookii", mean: "大的" }, { jp: "小さい", kana: "chiisai", mean: "小的" }, { jp: "高い", kana: "takai", mean: "貴的/高的" }, { jp: "安い", kana: "yasui", mean: "便宜的" }, { jp: "新しい", kana: "atarashii", mean: "新的" }, { jp: "古い", kana: "furui", mean: "舊的" }, { jp: "良い", kana: "ii", mean: "好的" }, { jp: "悪い", kana: "warui", mean: "壞的" }, { jp: "おいしい", kana: "oishii", mean: "好吃的" }, { jp: "忙しい", kana: "isogashii", mean: "忙碌的" }, { jp: "楽しい", kana: "tanoshii", mean: "快樂的" }, { jp: "きれい", kana: "kirei", mean: "漂亮的/乾淨的" }, { jp: "静か", kana: "shizuka", mean: "安靜的" }, { jp: "元気", kana: "genki", mean: "有精神的" }] },
             "n5_places": { level: "N5", label: "位置/場所", items: [{ jp: "上", kana: "ue", mean: "上面" }, { jp: "下", kana: "shita", mean: "下面" }, { jp: "前", kana: "mae", mean: "前面" }, { jp: "後ろ", kana: "ushiro", mean: "後面" }, { jp: "中", kana: "naka", mean: "裡面" }, { jp: "外", kana: "soto", mean: "外面" }, { jp: "学校", kana: "gakkou", mean: "學校" }, { jp: "会社", kana: "kaisha", mean: "公司" }, { jp: "病院", kana: "byouin", mean: "醫院" }, { jp: "トイレ", kana: "toire", mean: "廁所" }] },
-            "n4_body": { level: "N4", label: "身體/健康", items: [{ jp: "頭", kana: "atama", mean: "頭" }, { jp: "目", kana: "me", mean: "眼睛" }, { jp: "耳", kana: "mimi", mean: "耳朵" }, { jp: "口", kana: "kuchi", mean: "嘴巴" }, { jp: "手", kana: "te", mean: "手" }, { jp: "足", kana: "ashi", mean: "腳" }, { jp: "お腹", kana: "onaka", mean: "肚子" }, { jp: "痛い", kana: "itai", mean: "痛" }, { jp: "風邪", kana: "kaze", mean: "感冒" }, { jp: "熱", kana: "netsu", mean: "發燒" }, { jp: "薬", kana: "kusuri", mean: "藥" }, { jp: "病院", kana: "byouin", mean: "醫院" }] },
-            "n4_weather": { level: "N4", label: "天氣/季節", items: [{ jp: "晴れ", kana: "hare", mean: "晴天" }, { jp: "雨", kana: "ame", mean: "雨天" }, { jp: "雪", kana: "yuki", mean: "雪" }, { jp: "曇り", kana: "kumori", mean: "陰天" }, { jp: "風", kana: "kaze", mean: "風" }, { jp: "春", kana: "haru", mean: "春天" }, { jp: "夏", kana: "natsu", mean: "夏天" }, { jp: "秋", kana: "aki", mean: "秋天" }, { jp: "冬", kana: "fuyu", mean: "冬天" }, { jp: "台風", kana: "taifuu", mean: "颱風" }] },
             "4_town": { level: "N4", label: "城鎮/交通", items: [{ jp: "駅", kana: "eki", mean: "車站" }, { jp: "電車", kana: "densha", mean: "電車" }, { jp: "地下鉄", kana: "chikatetsu", mean: "地下鐵" }, { jp: "バス", kana: "basu", mean: "公車" }, { jp: "自転車", kana: "jitensha", mean: "腳踏車" }, { jp: "空港", kana: "kuukou", mean: "機場" }, { jp: "飛行機", kana: "hikouki", mean: "飛機" }, { jp: "地図", kana: "chizu", mean: "地圖" }, { jp: "銀行", kana: "ginkou", mean: "銀行" }, { jp: "郵便局", kana: "yuubinkyoku", mean: "郵局" }, { jp: "図書館", kana: "toshokan", mean: "圖書館" }] },
             "4_clothing": { level: "N4", label: "衣物/穿著", items: [{ jp: "服", kana: "fuku", mean: "衣服" }, { jp: "着ます", kana: "kimasu", mean: "穿(上半身)" }, { jp: "履きます", kana: "hakimasu", mean: "穿(下半身/鞋)" }, { jp: "かぶります", kana: "kaburimasu", mean: "戴(帽子)" }, { jp: "靴", kana: "kutsu", mean: "鞋子" }, { jp: "靴下", kana: "kutsushita", mean: "襪子" }, { jp: "帽子", kana: "boushi", mean: "帽子" }, { jp: "眼鏡", kana: "megane", mean: "眼鏡" }, { jp: "脱ぎます", kana: "nugimasu", mean: "脫" }] },
             "4_verbs_pairs": { level: "N4", label: "自他動詞", items: [{ jp: "開けます", kana: "akemasu", mean: "打開(他)" }, { jp: "開きます", kana: "akimasu", mean: "開著(自)" }, { jp: "閉めます", kana: "shimemasu", mean: "關上(他)" }, { jp: "閉まります", kana: "shimarimasu", mean: "關著(自)" }, { jp: "点けます", kana: "tsukemasu", mean: "打開電器(他)" }, { jp: "点きます", kana: "tsukimasu", mean: "亮著(自)" }, { jp: "消します", kana: "keshimasu", mean: "關掉電器(他)" }, { jp: "消えます", kana: "kiemasu", mean: "熄滅(自)" }, { jp: "壊します", kana: "kowashimasu", mean: "弄壞(他)" }, { jp: "壊れます", kana: "kowaremasu", mean: "壞掉(自)" }] },
